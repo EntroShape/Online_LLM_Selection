@@ -13,6 +13,25 @@ This paper proposes a novel **contextual bandit framework** for adaptive multi-L
 
 This repository implements the core algorithms from the paper, designed to improve accuracy and cost-efficiency in real-time, adaptive multi-LLM systems.
 
+# How to Use
+
+To run the code, please first create your own Openrouter API key with credit before running the code. If you want to run it on the Colab directly, then please upload the Math500 dataset under the same directory. After that, we can directly run the code. 
+
 # Data Source and Note
 
-In the paper, we have experimented with the method on four datasets (Math500, AIME, GPQA, MMLU-Pro). This repo, in particular, is the implementation of the math500 dataset only. Please cite also the corresponding dataset appropriately if used. Also, please note that our code implementation uses Openrouter as a Unified API provider, please create your own API key before running the code.
+In the paper, we have experimented with the method on four datasets (Math500, AIME, GPQA, MMLU-Pro). This repo, in particular, is the implementation of the math500 dataset only. Please cite also the corresponding dataset appropriately if used. 
+
+# Citation
+Please cite the work if our work have contributed to your work!
+
+```bibtex
+@misc{poon2025online,
+      title={{Online Multi-LLM Selection via Contextual Bandits under Unstructured Context Evolution}}, 
+      author={Manhin Poon and XiangXiang Dai and Xutong Liu and Fang Kong and John C.S. Lui and Jinhang Zuo},
+      year={2025},
+      eprint={2506.17670},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.17670}
+}
+```
